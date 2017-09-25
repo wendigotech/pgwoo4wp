@@ -167,6 +167,15 @@ if ( ! function_exists( 'pg_starter_enqueue_scripts' ) ) :
 
     wp_enqueue_script( 'ieviewportbugworkaround', get_template_directory_uri() . '/assets/js/ie10-viewport-bug-workaround.js' );
 
+    wp_deregister_script( 'cbpanimatedheader' );
+    wp_enqueue_script( 'cbpanimatedheader', get_template_directory_uri() . '/components/freelancer/js/cbpAnimatedHeader.min.js', false, null, true);
+
+    wp_deregister_script( 'cbpanimatedheader' );
+    wp_enqueue_script( 'cbpanimatedheader', get_template_directory_uri() . '/components/freelancer/js/cbpAnimatedHeader.js', false, null, true);
+
+    wp_deregister_script( 'classie' );
+    wp_enqueue_script( 'classie', get_template_directory_uri() . '/components/freelancer/js/classie.js', false, null, true);
+
     /* Pinegrow generated Enqueue Scripts End */
 
         /* Pinegrow generated Enqueue Styles Begin */
@@ -176,6 +185,9 @@ if ( ! function_exists( 'pg_starter_enqueue_scripts' ) ) :
     wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/assets/font-awesome-4.6.3/css/font-awesome.min.css', null, '4.6.3', 'all' );
 
     wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', null, '1.2', 'all' );
+
+    wp_deregister_style( 'freelancer' );
+    wp_enqueue_style( 'freelancer', get_template_directory_uri() . '/components/freelancer/css/freelancer.css', false, null, 'all');
 
     /* Pinegrow generated Enqueue Styles End */
 
