@@ -166,7 +166,18 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
-    border: 0;
+
+background-color: #ffffff;
+
+border-bottom-left-radius: 50px;
+
+border-bottom-right-radius: 50px;
+
+border-top: 0;
+
+border-left: 0;
+
+border-right: 0;
 }
 
 section {
