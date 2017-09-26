@@ -2,6 +2,9 @@
             </main>
             <footer class="site-footer" id="footer">
                 <div class="container">
+                    <div class="scroll-top page-scroll visible-xs visble-sm">
+                        <a class="btn btn-primary" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+                    </div>
                     <div class="row">
                         <?php if ( is_active_sidebar( 'footer01_sidebar' ) ) : ?>
                             <div class="col-sm-3">

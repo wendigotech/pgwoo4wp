@@ -427,7 +427,9 @@ input[type="submit"] {
     background-color: #1d4568; }
 
 button, input, select, textarea {
-  padding: 8px; }
+  padding: 8px;
+
+right: 8px; }
 
 /*    Jumbotron Basic Customization   */
 .jumbotron {
