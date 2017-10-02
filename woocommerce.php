@@ -4,7 +4,7 @@ get_header(); ?>
 <section class="">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-sm-9 bkg">
                 <div>
                     <?php woocommerce_content() ?>
                 </div>

@@ -45,15 +45,19 @@
                         </div>
                     </div>
                 </nav>
-                <?php
-                    $image_attributes = (is_singular() || in_the_loop()) ? wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'full' ) : null;
-                    if( !$image_attributes  && ( $header_image = get_header_image() ) ) $image_attributes = array( $header_image );
-                ?>
-                <div class="jumbotron jumbo-bkg" style="<?php if($image_attributes) echo 'background-image:url(\''.$image_attributes[0].'\')' ?>;color:<?php echo '#'.get_header_textcolor() ?>;">
-                    <div class="container dimmer jumbotron-inner">
-                        <h1><?php bloginfo( 'name' ); ?></h1>
-                        <p><?php bloginfo( 'description' ); ?></p>
-                        <p><?php _e( 'About Us', 'PGwoo4' ); ?></p>
+                <div class="hero jumbotron">
+                    <div class="hero-content">
+                        <video loop autoplay muted poster="<?php echo get_template_directory_uri(); ?>/videos/video_background.jpg" class="hero-video">
+                            <source src="<?php echo get_template_directory_uri(); ?>/videos/video_background.mp4" type="video/mp4" />
+                            <source src="<?php echo get_template_directory_uri(); ?>/videos/video_background.ogg" type="video/ogg" />
+                            <source src="<?php echo get_template_directory_uri(); ?>/videos/video_background.webm" type="video/webm" />
+                            <?php _e( 'Your browser does not support the HTML5 video tag.', 'PGwoo4' ); ?>
+                        </video>
+                        <div class="hero-text">
+                            <h1><?php bloginfo( 'name' ); ?></h1>
+                            <p><?php bloginfo( 'description' ); ?></p>
+                            <a class="btn btn-primary btn-lg btn-outline" href="#more"><?php _e( 'Read More', 'PGwoo4' ); ?></a>
+                        </div>
                     </div>
                 </div>
                 <div class="container-fluid breadcrumbs-section" id="more">
