@@ -53,7 +53,7 @@
                     <div class="container dimmer jumbotron-inner">
                         <h1><?php bloginfo( 'name' ); ?></h1>
                         <p><?php bloginfo( 'description' ); ?></p>
-                        <p><?php _e( 'About Us', 'PGwoo4' ); ?></p>
+                        <a class="btn btn-lg btn-default" href="#body"><?php _e( 'About Us', 'PGwoo4' ); ?></a>
                     </div>
                 </div>
                 <div class="container-fluid breadcrumbs-section" id="more">
