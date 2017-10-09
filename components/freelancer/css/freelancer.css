@@ -10,6 +10,8 @@ body {
 
 p {
     font-size: 20px;
+
+font-family: dosis;
 }
 
 p.small {
@@ -31,7 +33,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: indie flower;
     font-weight: 700;
 }
 
