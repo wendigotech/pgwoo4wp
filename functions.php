@@ -186,14 +186,13 @@ if ( ! function_exists( 'pg_starter_enqueue_scripts' ) ) :
 
     wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', null, '1.2', 'all' );
 
+    wp_enqueue_style( 'woo', get_template_directory_uri() . '/woo.css', null, null, 'all' );
+
     wp_deregister_style( 'style-1' );
     wp_enqueue_style( 'style-1', 'https://fonts.googleapis.com/css?family=Dosis:500|Indie+Flower', false, null, 'all');
 
     wp_deregister_style( 'freelancer' );
     wp_enqueue_style( 'freelancer', get_template_directory_uri() . '/components/freelancer/css/freelancer.css', false, null, 'all');
-
-    wp_deregister_style( 'woo' );
-    wp_enqueue_style( 'woo', get_template_directory_uri() . '/woo.css', false, null, 'all');
 
     /* Pinegrow generated Enqueue Styles End */
 
