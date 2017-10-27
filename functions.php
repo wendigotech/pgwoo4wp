@@ -192,6 +192,9 @@ if ( ! function_exists( 'pg_starter_enqueue_scripts' ) ) :
     wp_deregister_style( 'freelancer' );
     wp_enqueue_style( 'freelancer', get_template_directory_uri() . '/components/freelancer/css/freelancer.css', false, null, 'all');
 
+    wp_deregister_style( 'woo' );
+    wp_enqueue_style( 'woo', get_template_directory_uri() . '/woo.css', false, null, 'all');
+
     /* Pinegrow generated Enqueue Styles End */
 
     }
