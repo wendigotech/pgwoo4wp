@@ -972,5 +972,7 @@ div.bbp-template-notice p {
 h1 {
   font-family: indie flower;
 }
-.woocommerce ul.products li.product .button{margin-top:1em;border-radius: 30px;border-style: inset;border-color: rgba(0, 0, 0, 0.17);border-bottom: 5px inset rgba(0, 0, 0, 0.17);border-right: 3px inset rgba(0, 0, 0, 0.17);}
-.woocommerce ul.products li.product a img:hover{width:100%;height:auto;display:block;margin:0 0 1em;box-shadow:4px 4px 8px -2px #ef0505;}
+div.breadcrumbs-cnt p {
+  color: #000000;
+font-family: alfa slab one;
+}

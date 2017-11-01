@@ -9,9 +9,11 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
 
 font-family: dosis;
+
+color: #000000;
 }
 
 p.small {
