@@ -153,6 +153,10 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+
+font-family: dosis;
+
+font-size: 24px;
 }
 
 .navbar .navbar-nav li a:focus {
