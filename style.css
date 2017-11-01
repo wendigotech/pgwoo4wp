@@ -26,11 +26,6 @@ body {
 background-color: white;
 
 margin-top: -48px; }
-
-a {
-  color: #286090;
-  -webkit-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in; }
   a:hover {
     color: #122b40;
     text-decoration: none; }

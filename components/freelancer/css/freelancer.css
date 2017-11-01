@@ -18,18 +18,6 @@ p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-
-border-top-color: rgba(0, 0, 0, 0.56);
-
-border-top-style: inset;
-}
-
 h1,
 h2,
 h3,
