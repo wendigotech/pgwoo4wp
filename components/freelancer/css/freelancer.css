@@ -454,4 +454,7 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}div.breadcrumbs-cnt p {
+  color: #000000;
+font-family: alfa slab one;
 }
